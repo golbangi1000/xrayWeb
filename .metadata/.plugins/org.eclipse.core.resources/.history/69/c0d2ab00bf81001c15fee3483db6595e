@@ -1,0 +1,7 @@
+package com.xrayWeb.project.Pdata;
+
+public class PdataDTO {
+	private int Pdata_no;
+	private int member_no;
+	private String Image_path;
+}

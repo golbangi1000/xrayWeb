@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xrayWeb.project.member.memberMapper">
+<resultMap id='member' type = "com.xrayWeb.project.member.memberDTO">
+
+<result property = "member_no" column="member_no"/>
+<result property = "member_name" column="member_no"/>
+<result property = "member_Pwd" column="member_no"/>
+<result property = "age" column="member_no"/>
+<result property = "email" column="email"/>
+
+</resultMap>
+   
+</mapper>

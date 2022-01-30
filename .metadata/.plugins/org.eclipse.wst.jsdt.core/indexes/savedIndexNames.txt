@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+C:\Users\kenja\Desktop\xrayWeb\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2657492270.index
+1335368120.index
+469057297.index
+3831539419.index
+3585289577.index

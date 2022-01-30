@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="com.xrayWeb.project.Pdata.PdataMapper">
+
+<resultMap id='Pdata_result' type = "com.xrayWeb.project.Pdata.PdataDTO">
+	<result property = "Pdata_no" column="Pdata_no"/>
+</resultMap>
+
+<select id="PdataChk" resultMap="Pdata_result">
+	select *
+	from Pdata
+	where Pdata_no = #{Pdata_no}
+</select>
+<insert id="signUpForm">
+	insert into Pdata(Pdata_no, member_no, Image_path)
+	values(#{Pdata_no}, #{member_no}, #{Image_path})
+</insert>
+   
+</mapper>
